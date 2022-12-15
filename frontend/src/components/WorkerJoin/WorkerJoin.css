@@ -1,0 +1,38 @@
+.container-lgw{
+  
+    background:url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+center / cover no-repeat fixed;
+}
+#details{
+    /* border:2px solid black; */
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    border-radius: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+  transition: 0.4s;
+}
+#details:hover{
+    
+        transform: scale(0.9, 0.9);
+        box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+          -5px -5px 30px 15px rgba(0,0,0,0.22);
+      
+}
+#details .row{
+    margin: 1rem;
+   
+}
+.buttionSize{
+    margin-top: 1.4rem;
+    height: 2.4rem;
+    width:8rem;
+}
+#longitude{
+    margin-left: 0;
+}

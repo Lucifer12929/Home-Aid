@@ -1,0 +1,93 @@
+.buttionSize {
+  height: 50px;
+  width: 150px;
+}
+.container-lgs{
+  background:url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+center / cover no-repeat fixed;
+}
+.divbody {
+  border: 2px solid black;
+  background:url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+  center / cover no-repeat fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#shopd{
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: aliceblue;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+  transition: 0.4s;
+}
+#shopd:hover{
+    
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+
+}
+/* #plumbingItems {
+  background-color: lightblue;
+} */
+.contact-form .sticker{
+  width: 100%;
+  
+  margin-top: 3rem;
+
+  
+}
+.contact-form p{
+  width: 100%;
+  color: whitesmoke;
+
+  text-align: center;
+}
+
+.sticker {
+  --c1: #ef548f;
+  --c2: #ef8b6d;
+  --c3: #cfef6b;
+  --c4: #3bf0c1;
+  --c5: #bb4af0;
+  --shine-angle: 15deg;
+  display: inline-grid;
+  grid-template-areas: "text";
+  place-items: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: clamp(3rem, 15vw, 10rem);
+  text-transform: uppercase;
+  color: var(--c5);
+}
+.sticker-lg {
+  font-size: clamp(3rem, 4vw, 3rem);
+}
+.sticker span {
+  background: linear-gradient(var(--shine-angle), rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 35%, rgba(255, 255, 255, 0.98) 49.95%, rgba(255, 255, 255, 0.98) 50.15%, rgba(255, 0, 0, 0) 65%, rgba(255, 0, 0, 0)), linear-gradient(to right, var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.01em rgba(0, 0, 0, 0.6);
+}
+.sticker > *, .sticker::before, .sticker::after {
+  grid-area: text;
+}
+.sticker::before, .sticker::after {
+  content: attr(data-text);
+  color: #fff;
+}
+.sticker::before {
+  -webkit-text-stroke: 0.21em white;
+
+}
+.sticker::after {
+  text-shadow: 0.07em 0.08em 0.05em rgba(0, 0, 0, 0.75), -0.07em -0.05em 0.05em rgba(0, 0, 0, 0.75);
+  z-index: -2;
+}

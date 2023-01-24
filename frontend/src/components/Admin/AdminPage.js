@@ -39,7 +39,7 @@ export default function AdminPage({ bio }) {
                     setCheck("TRIV");
                   }}
                 >
-                  TRIV
+                  HOMEAID
                 </button>
               </div>
             </div>

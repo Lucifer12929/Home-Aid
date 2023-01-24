@@ -36,8 +36,8 @@ function Hero(){
                 <div class="row">
                   <div class="col-lg-12 textf">
                     <h6>Home Service Provider</h6>
-                    <h2>TRIVIALITY</h2>
-                    <p>Triviality offers home services such as electricians, plumbers, and mechanics from the nearest location as well as providing household needs online from electric, mechanical, and plumbing shops. With the daily job opportunity for local vendors, it makes it easier to find local vendors. . Thank you.</p>
+                    <h2>HOMEAID</h2>
+                    <p>HomeAid offers home services such as electricians, plumbers, and mechanics from the nearest location as well as providing household needs online from electric, mechanical, and plumbing shops. With the daily job opportunity for local vendors, it makes it easier to find local vendors. . Thank you.</p>
                   </div>
                   <div class="col-lg-12">
                     <div class="border-first-button scroll-to-section bfeature">

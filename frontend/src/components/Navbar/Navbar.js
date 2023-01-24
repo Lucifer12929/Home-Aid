@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./stlye.css";
-import logo from './logo.png'
+import logo from './homeaid.png'
 
 export default function Navbar() {
 

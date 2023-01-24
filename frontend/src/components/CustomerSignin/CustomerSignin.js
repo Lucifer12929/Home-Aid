@@ -89,7 +89,7 @@ export default function CustomerSignin() {
               <div className="container">
                 <div className="row full-heightStyle justify-content-center">
                   <div className="col-12 text-center align-self-center py-5">
-                    <center className="centerStyle">WELCOME TO TRIV JOY</center>
+                    <center className="centerStyle">WELCOME TO HOME AID</center>
                     <div className="sectionStyle pb-5 pt-5 pt-sm-2 text-center">
                       <h6 className="mb-0 pb-3 h6Style">
                         <span>Log In </span>

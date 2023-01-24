@@ -8,8 +8,8 @@ export default function Footer() {
       <div>
       <footer class="footer">
 	  <div class="footer-content">
-	       <h3>TRIVIALITY SERVICES</h3>
-		   <p>Triviality offers home services such as electricians, plumbers, and mechanics from the nearest location as well as providing household needs online from electric, mechanical, and plumbing shops. With the daily job opportunity for local vendors, it makes it easier to find local vendors. </p> 
+	       <h3>HOMEAID SERVICES</h3>
+		   <p>HomeAid offers home services such as electricians, plumbers, and mechanics from the nearest location as well as providing household needs online from electric, mechanical, and plumbing shops. With the daily job opportunity for local vendors, it makes it easier to find local vendors. </p> 
 		   <ul class="socials">
     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -26,7 +26,7 @@ export default function Footer() {
           >
             © 2022 Copyright:&nbsp;&nbsp;  
             <Link className="text-white" to="/">
-             TRIVIALITY
+            HOMEAID
             </Link>
           </div>
       </div>

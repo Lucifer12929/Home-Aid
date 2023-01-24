@@ -52,7 +52,7 @@ export default function WorkerSignin() {
                               alt="logo"
                             />
                             <h4 className="mt-1 mb-5 pb-1">
-                              We are The TRIV Joy Team
+                              We are The HOME AID Team
                             </h4>
                           </div>
                           <form>
@@ -127,7 +127,7 @@ export default function WorkerSignin() {
                             We are more than just a company
                           </h4>
                           <p className="small mb-0">
-                            Triv-joy is a wonderful service for the people who
+                            Home-Aid is a wonderful service for the people who
                             are in need of plumbers, electricens and mechanice.
                             It also provides good oppurtinaty for workers to
                             earn money. here shops also register and sell there

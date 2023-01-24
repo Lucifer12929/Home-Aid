@@ -114,7 +114,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                           </div>
                           <a class="buy"
                             onClick={() => {
-                              addItems(0);
+                              addItems(1);
                             }}
                           >
                             {itemStatus[1].status}
@@ -155,7 +155,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(2);
                           }}
                         >
                           {itemStatus[2].status}
@@ -196,7 +196,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(3);
                           }}
                         >
                           {itemStatus[3].status}
@@ -237,7 +237,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(4);
                           }}
                         >
                           {itemStatus[4].status}
@@ -278,7 +278,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(5);
                           }}
                         >
                           {itemStatus[5].status}
@@ -315,11 +315,11 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                       </div>
                       <div className="card-body text-center">
                         <div className="ad-title m-auto">
-                          <h5>{items[0].item}</h5>
+                          <h5>{items[6].item}</h5>
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(6);
                           }}
                         >
                           {itemStatus[6].status}
@@ -360,7 +360,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(7);
                           }}
                         >
                           {itemStatus[7].status}
@@ -401,7 +401,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(8);
                           }}
                         >
                           {itemStatus[8].status}
@@ -442,7 +442,7 @@ export default function Item({ items, itemStatus, addItems, amount }) {
                         </div>
                         <a class="buy"
                           onClick={() => {
-                            addItems(0);
+                            addItems(9);
                           }}
                         >
                           {itemStatus[9].status}
@@ -480,9 +480,9 @@ export default function Item({ items, itemStatus, addItems, amount }) {
         </>
       )}
       {pay === true ? (
-        <>
+        <div className="wji">
           <StripeContainer amount={amount} itemStatus={itemStatus} />
-        </>
+        </div>
       ) : (
         <></>
       )}

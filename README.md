@@ -31,6 +31,9 @@ And it will run a script named dev which runs server(nodemon)  apps.
 
 ![image](https://user-images.githubusercontent.com/88181451/221233021-9bb190b6-1344-47fe-9302-766cf83f8e75.png)
 
+![image](https://user-images.githubusercontent.com/88181451/221233900-a4f717a0-9853-4789-a83f-d1153c0cdd7b.png)
+
+
 
 
 ## TECHS
